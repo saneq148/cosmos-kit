@@ -1,5 +1,5 @@
-import { ariaExtensionInfo, AriaExtensionWallet } from './extension';
+import { AriaMobileInfo, AriaMobileWallet } from './wallet-connect';
 
-const ariaExtension = new AriaExtensionWallet(ariaExtensionInfo);
+const ariaMobile = new AriaMobileWallet(AriaMobileInfo);
 
-export const wallets = [ariaExtension];
+export const wallets = [ariaMobile];

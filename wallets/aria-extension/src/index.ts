@@ -1,2 +1,2 @@
-export * from './extension';
 export * from './aria';
+export * from './wallet-connect';
